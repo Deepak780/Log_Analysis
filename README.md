@@ -40,7 +40,7 @@ This project provides the solution for the following three queries:
 	```
 	pip install python-psycopg2
 	```
-8. Download the repository of [Log Analysis]() project and unzip it into the vagrant folder.
+8. Download the repository of [Log Analysis](https://github.com/Deepak780/Log_Analysis.git) project and unzip it into the vagrant folder.
 9. Download the [data here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and unzip it into the vagrant folder.
 10. To load the data:
 	
