@@ -16,7 +16,7 @@ This project provides the solution for the following three queries:
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [PostgreSQL](https://www.postgresql.org/docs/9.5/index.html)
 
-															[Top](#top)
+[Top](#top)
 
 ### Steps to Run the Project 
 1. Download and install Python from the link provided in the section of prerequisites.
@@ -71,7 +71,7 @@ create or replace view log_view as select date(time) as error_date,round(100.0*s
  python log_analysis.py
  ```
 
-															[Top](#top)
+[Top](#top)
 
 ### Output
 
@@ -97,8 +97,8 @@ ON WHICH DAYS DID MORE THAN 1% OF REQUESTS LEAD TO ERRORS?
 
 ```
 
-															[Top](#top)
+[Top](#top)
 
 #### FAQ's [here](https://udacity.zendesk.com/hc/en-us)
 
-															[Top](#top)
+[Top](#top)
