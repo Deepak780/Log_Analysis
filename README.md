@@ -16,7 +16,7 @@ This project provides the solution for the following three queries:
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [PostgreSQL](https://www.postgresql.org/docs/9.5/index.html)
 
-[Top](#top)
+															[Top](#top)
 
 ### Steps to Run the Project 
 1. Download and install Python from the link provided in the section of prerequisites.
@@ -41,7 +41,7 @@ This project provides the solution for the following three queries:
 	pip install python-psycopg2
 	```
 8. Download the repository of [Log Analysis]() project and unzip it into the vagrant folder.
-9. Download the [data here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)and unzip it into the vagrant folder.
+9. Download the [data here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and unzip it into the vagrant folder.
 10. To load the data:
 	
 	```
@@ -71,36 +71,34 @@ create or replace view log_view as select date(time) as error_date,round(100.0*s
  python log_analysis.py
  ```
 
-[Top](#top)
+															[Top](#top)
 
 ### Output
 
 ```
 WHAT ARE THE MOST POPULAR THREE ARTICLES OF ALL TIME?             
 
-1.Candidate is jerk, alleges rival      --338647 views            
-2.Bears love berries, alleges bear      --253801 views            
-3.Bad things gone, say good people      --170098 views            
-
+1.Candidate is jerk, alleges rival      -- 338647 views            
+2.Bears love berries, alleges bear      -- 253801 views            
+3.Bad things gone, say good people      -- 170098 views            
                                                                   
                                                                   
 WHO ARE THE MOST POPULAR ARTICLE AUTHORS OF ALL TIME?             
 
-1.Ursula La Multa       --507594 views                            
-2.Rudolf von Treppenwitz        --423457 views                    
-3.Anonymous Contributor --170098 views                            
-4.Markoff Chaney        --84557 views                             
+1.Ursula La Multa       	-- 507594 views                            
+2.Rudolf von Treppenwitz        -- 423457 views                    
+3.Anonymous Contributor 	-- 170098 views                            
+4.Markoff Chaney        	-- 84557 views                             
                                                                   
                                                                   
-
 ON WHICH DAYS DID MORE THAN 1% OF REQUESTS LEAD TO ERRORS?        
 
-1.2016-07-17    --2.26% errors
+	2016-07-17    --2.26% errors
 
 ```
 
-[Top](#top)
+															[Top](#top)
 
-#### FAQ's: [here](https://udacity.zendesk.com/hc/en-us)
+#### FAQ's [here](https://udacity.zendesk.com/hc/en-us)
 
-[Top](#top)
+															[Top](#top)
