@@ -1,4 +1,4 @@
-#!usr/bin/env/python3
+#!usr/bin/env/python
 import psycopg2
 
 
@@ -17,6 +17,7 @@ def disconnect_database(cur, conn):
     cur.close()
     conn.close()
 
+    
 # Query1
 title1 = ("What are the most popular three articles of all time?")
 # Solution for the first query
