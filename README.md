@@ -3,10 +3,14 @@
 ### Overview
 >In this project, we have to create a reporting tool that prints out reports (in plain text) based on the data in the database. This reporting tool is a Python program using the psycopg2 module to connect to the database.
 
+### Project design
 This project provides the solution for the following three queries:
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
+
+We have to write queries that fetches data from the newsdata database.
+For this, first of all we have to create views such that it does not make any changes in the original database.
 
 [Top](#top)
 
